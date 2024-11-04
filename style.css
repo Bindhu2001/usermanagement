@@ -1,0 +1,41 @@
+/* .bg-black-opacity-40 {
+    background-color: rgba(0, 0, 0, 0.4);
+} */
+:root {
+    --primary: #d84e0f;
+    --white: #fff;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    
+}
+.container {
+    height: 100%;
+}
+
+.card{
+    width: 400px;
+    height: 350px;
+    background-color: rgba(0,0, 0, 0.4);
+}
+h3.text-white {
+    color: var(--white);
+}
+.input-group>span {
+    background-color: var(--primary);
+    border: 0;
+    color: var(--white);
+}
+.signup_btn {
+    color: var(--white);
+    background-color: var(--primary);
+}
+.signup > a {
+    color: var(--primary);
+}
